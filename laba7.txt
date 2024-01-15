@@ -1,0 +1,190 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	setlocale(0, "");
+	int month;
+	cout << "Введите номер месяца: ";
+	cin >> month;
+	int day;
+	cout << "Введите день месяца: ";
+	cin >> day; 
+switch (month) {
+	case 1:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " января";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 2:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: 
+			cout << "Календарь: " << day << " февраля";
+			break;
+		case 29:
+			cout << "К сожалению, сейчас не високосный годик (((((";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 3:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " марта";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 4:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: 
+			cout << "Календарь: " << day << " апреля";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 5:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " мая";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 6:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: 
+			cout << "Календарь: " << day << " июня";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 7:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " июля";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 8:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " августа";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 9:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30:
+			cout << "Календарь: " << day << " сентября";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 10:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " октября";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 11:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: 
+			cout << "Календарь: " << day << " ноября";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	case 12:
+		switch (day) {
+		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 7: case 8: case 9: case 10: case 11: case 12:
+		case 13: case 14: case 15: case 16: case 17: case 18:
+		case 19: case 20: case 21: case 22: case 23: case 24:
+		case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+			cout << "Календарь: " << day << " декабря";
+			break;
+		default:
+			cout << "ТАКОГО ДНЯ В МЕСЯЦЕ НЕ БЫВАЕТ;(";
+			break;
+		}
+		break;
+	default:
+		cout << "ТАКОГО МЕСЯЦА НЕ СУЩЕСТВУЕТ!!!";
+		break;
+	}
+	int _; cin >> _;
+}
